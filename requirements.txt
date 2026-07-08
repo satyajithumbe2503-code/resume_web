@@ -6,3 +6,11 @@ nltk==3.9.4
 pandas==3.0.3
 fpdf==1.7.2
 matplotlib
+TfidfVectorizer
+re
+time
+word_tokenize
+base64
+Counter
+cosine_similarity
+stopwords
