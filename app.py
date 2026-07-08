@@ -25,6 +25,7 @@ st.set_page_config(
 # --- 2. DOWNLOAD NLTK RESOURCES ---
 @st.cache_resource
 def download_nltk_resources():
+    nltk.download('punkt_tab')
     nltk.download("punkt", quiet=True)
     nltk.download("stopwords", quiet=True)
 
