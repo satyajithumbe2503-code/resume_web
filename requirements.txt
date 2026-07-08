@@ -1,16 +1,7 @@
-
-
 streamlit==1.58.0
 PyPDF2==3.0.1
 nltk==3.9.4
 pandas==3.0.3
 fpdf==1.7.2
-from collections import Counter
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-import base64
-import re
-import time
-
+matplotlib
+scikit-learn
